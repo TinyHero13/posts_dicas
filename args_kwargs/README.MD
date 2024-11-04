@@ -32,7 +32,7 @@ Com *args, você permite que a função aceite qualquer quantidade de números:
 ```python
 def soma(*a):
     resultado = 0
-    for i in args:
+    for i in a:
         resultado += i
     return resultado
 
